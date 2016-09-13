@@ -4,19 +4,18 @@ In this lab you will create your very own person class. Basically you will have 
 
 ## Create the field variables for the following attributes:
 
-* Name;
-* Age;
-* Sex;
-* Height;
-* Weight;
-* Social security number;
-* Address;
-* Phone number;
-* Date of birth;
+* Name; Thomas Ciavattone
+* Age; 20
+* Sex; Male
+* Height; 65 inches
+* Weight; 190
+* Social security number; 651-26-8735
+* Address; 1150 Fortune Court Wantagh, NY
+* Phone number; 516-221-8429
+* Date of birth; 06/14/1996
 
-## Create a constructor to initialize an object. The constructor should ask the user for the person's first and last name. 
+## Create a constructor to initialize an object. The constructor should ask the user for the person's first and last name.
 
 ## Create methods for the user to use that assigns values to each of the object's attributes. Make sure to use conditional statments to insure the user is giving valid information. (I.e. ABC-222-2222 is not good for phone numbers.)
 
 ## Create a method that will print all information of object of class `PersonCreator`. (Hint: You might want to look back at the `TicketMachine` class.)
-
