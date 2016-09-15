@@ -4,15 +4,15 @@ In this lab you will create your very own person class. Basically you will have 
 
 ## Create the field variables for the following attributes:
 
-* Name; Thomas Ciavattone
+* Name; TJ Ciavattone
 * Age; 20
 * Sex; Male
 * Height; 65 inches
 * Weight; 190
 * Social security number; 651-26-8735
-* Address; 1150 Fortune Court Wantagh, NY
+* Address; 1144 Fortune Court Wantagh, NY
 * Phone number; 516-221-8429
-* Date of birth; 06/14/1996
+* Date of birth; 06/21/1996
 
 ## Create a constructor to initialize an object. The constructor should ask the user for the person's first and last name.
 
