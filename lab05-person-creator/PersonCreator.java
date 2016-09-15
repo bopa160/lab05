@@ -24,6 +24,25 @@ public class PersonCreator
     //Stundent's Birthdate
     private String birthdate;
 
-    /** Create the student
-    
+    // Create the student
+    public PersonCreator (String firstName, String lastName )
+    {
+      name= firstName + " " + lastName;
+      age= -1;
+      sex= "";
+      height= -1;
+      weight= -1;
+      SSN= -1;
+      address= "";
+      phoneNumber= "";
+      birthdate= "";
+    }
+    public void changeAge(int yearsOld)
+    {
+      age= yearsOld;
+    }
+    public void changeSex(String gender)
+    {
+      sex= gender;
+    }
 }
