@@ -2,8 +2,8 @@
 /**
  * Write a description of class PersonCreator here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * Thomas Ciavattone (your name)
+ * 9/19/2016
  */
 public class PersonCreator
 {
