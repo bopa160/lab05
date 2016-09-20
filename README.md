@@ -10,7 +10,7 @@ In this lab you will create your very own person class. Basically you will have 
 * Height; 65 inches
 * Weight; 190
 * Social security number; 651-26-8735
-* Address; 1144 Fortune Court Wantagh, NY
+* Address; 1144 Beech Street Wantagh, NY
 * Phone number; 516-221-8429
 * Date of birth; 06/21/1996
 
