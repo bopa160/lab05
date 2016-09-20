@@ -18,7 +18,7 @@ public class PersonCreator
     // Student's Weight
     private int weight;
     // Student's Socal security numbers
-    private int SSN;
+    private String SSN;
     // Student's Address
     private String address;
     //Stundent's Birthdate
@@ -32,7 +32,7 @@ public class PersonCreator
       sex= "";
       height= -1;
       weight= -1;
-      SSN= -1;
+      SSN= "";
       address= "";
       phoneNumber= "";
       birthdate= "";
@@ -44,5 +44,22 @@ public class PersonCreator
     public void changeSex(String gender)
     {
       sex= gender;
+    }
+    public void changeHeight(int inches)
+    {
+        height=inches
+    }
+    public void changeWeight(int pounds)
+    {
+        weight=pounds
+    }
+    public void changeSSN(int beginNum, int middleNum, int endNum)
+    {
+        //if beginNum is bad, tell user to input something else.
+        if (beginNum < 000 || beginNum >000)
+        {
+            System.err.print("Please use a vaild beginning number")
+        }
+        else if (middleNum < 00 || middleNum > 99 )
     }
 }
