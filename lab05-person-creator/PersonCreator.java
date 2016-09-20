@@ -1,4 +1,74 @@
- 
+ /**
+ *Create the person and list all infomation about that person.
+ *
+ * Thomas Ciavattone (your name)
+ * 9/19/2016
+ */
+public class PersonCreator
+{
+    // Student's name
+    private String name;
+    // Student's age
+    private int age;
+    //student's Sex
+    private String sex;
+    // Student's Height
+    private int height;
+    // Student's Weight
+    private int weight;
+    // Student's Socal security numbers
+    private String SSN;
+    // Student's Address
+    private String address;
+    //Stundent's phone Number
+    private String phone;
+    //Stundent's Birthdate
+    private String birthdate;
+
+
+    //Create the student
+    public PersonCreator (String firstName, String lastName )
+    {
+      name= firstName + " " + lastName;
+      age= -1;
+      sex= "";
+      height= -1;
+      weight= -1;
+      SSN= "";
+      address= "";
+      phone= "";
+      birthdate= "";
+    }
+    /*
+    * Desription: Change person age to users input
+    * Input: int
+    * purpose: Insert person age into program
+    * example: 20
+    */
+    public void changeAge(int years)
+    {
+      age=years;
+    }
+    /*
+    * Desription: Change person sex to male or female
+    * Input: String
+    * purpose: Insert person gender into program
+    * example: male
+    */
+    public void changeSex(String gender)
+    {
+      sex= gender;
+    }
+    /*
+    * Desription: Change person height (in inches) to users input
+    * Input: int and
+    * purpose: Insert person height into program
+    * example: 66
+    */
+    public void changeHeight(int inches)
+    {
+        height=inches;
+    }
     /*
     * Desription: Change person weight (in pounds) to users input
     * Input: int
@@ -100,3 +170,4 @@
         System.out.println();
     }
 }
+
