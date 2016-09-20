@@ -1,6 +1,5 @@
-
-/**
- * Write a description of class PersonCreator here.
+**
+ *Create the person and list all infomation about that person.
  *
  * Thomas Ciavattone (your name)
  * 9/19/2016
@@ -27,7 +26,7 @@ public class PersonCreator
     private String birthdate;
     
 
-    // Create the student
+    //Create the student
     public PersonCreator (String firstName, String lastName )
     {
       name= firstName + " " + lastName;
@@ -43,7 +42,7 @@ public class PersonCreator
     
     public void changeAge(int yearsOld)
     {
-      age= yearsOld + "years old";
+      age= yearsOld + " years old";
     }
     
     public void changeSex(String gender)
@@ -53,12 +52,12 @@ public class PersonCreator
     
     public void changeHeight(int inches)
     {
-        height=inches + "inches";
+        height=inches + " inches";
     }
     
     public void changeWeight(int pounds)
     {
-        weight=pounds + "lbs";
+        weight=pounds + " lbs";
     }
     
     public void changeSSN(int beginNum, int middleNum, int endNum)
@@ -122,5 +121,7 @@ public void printPersoninfo()
     System.out.println(address);
     System.out.println(phone);
     System.out.println(birthdate);
+    System.out.println();
+    
 }
 }
